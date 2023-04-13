@@ -96,11 +96,11 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 200px;
+        width: 400px;
     }
 
     img {
-        width: 200px;
+        width: 300px;
     }
 }
 
@@ -114,7 +114,7 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 100px;
+        width: 150px;
     }
 
     img {

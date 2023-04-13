@@ -56,7 +56,12 @@ h4 {
 .article {
     margin: 20px;
     padding: 16px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    width: 29%;
+}
+
+img {
+    width: 300px;
 }
 
 button {
@@ -81,7 +86,7 @@ section {
     justify-content: center;
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1200px) {
     section {
         display: flex;
         flex-direction: column;
@@ -91,10 +96,15 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        width: 200px;
+    }
+
+    img {
+        width: 200px;
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
     section {
         display: flex;
         flex-direction: column;
@@ -104,6 +114,10 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 150px;
+        width: 100px;
+    }
+
+    img {
+        width: 100px;
     }
 }
